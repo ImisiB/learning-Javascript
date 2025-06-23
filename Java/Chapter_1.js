@@ -21,10 +21,6 @@
 
 // let index = email.indexOf("@");
 // console.log(index);
-// console.log();
-// console.log();
-// console.log();
-// console.log("Chapter 2");
 
 // // Common  String Methods
 
@@ -139,12 +135,10 @@
 
 
 
+// // UNDEFINED AND NULL
+// let age = null;
 
-let age;
-
-console.log(age, age + 3, `the age is ${age}`);
-
-
+// console.log(age, age + 3, `the age is ${age}`);
 
 
 
@@ -157,3 +151,76 @@ console.log(age, age + 3, `the age is ${age}`);
 
 
 
+
+
+// // BOOLEANS & COMPARISONS
+// console.log(true, false, "true", "false");
+
+// // METHODS CAN RETURN BOOLEANS
+// let email = 'luigi@thenetninja.co.uk';
+// let names = ['mario', 'luigi', 'toad'];
+
+// let result = email.includes('!');
+// let result = names.includes('bowser');
+
+// console.log(result);
+
+// // COMPARISON OPERATORS
+// let age = 25;
+
+// console.log(age == 25);
+// console.log(age == 30);
+// console.log(age != 30);
+// console.log(age > 20);
+// console.log(age < 20);
+// console.log(age <= 25);
+// console.log(age >= 25);
+
+// let name = 'shaun';
+
+// console.log(name == 'shaun');
+// console.log(name == 'Shaun');
+// console.log(name > 'crystal');
+// console.log(name > 'Shaun');
+// console.log(name > 'Crystal');
+
+
+
+
+
+
+
+
+
+// let age = 25; 
+
+
+// // LOOSE COMPARISON (DIFFERENT TYPES CAN STILL BE EQUAL)
+
+// console.log(age == 25);
+// console.log(age == '25');
+// console.log(age != 25);
+// console.log(age != '25');
+
+
+// // STRICT COMPARISON (DIFFERENT TYPES CANNOT BE EQUAL)
+
+// console.log(age === 25);
+// console.log(age === '25');
+// console.log(age !== 25);
+// console.log(age !== '25');
+
+
+// // TYPE CONVERSION
+// let score = '100';
+
+// score = Number(score);
+// console.log(score + 1);
+// console.log(typeof score);
+
+// let result = Number('hello');
+// let result = String(50);
+// let result = Boolean(0);
+// let result = Boolean('')
+
+// console.log(result, typeof result);
