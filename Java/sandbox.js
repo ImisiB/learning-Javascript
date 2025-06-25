@@ -88,9 +88,9 @@
 
 
 // //template strings
-const title = 'Best reads of 2019';
-const author = 'Mario';
-const likes = 30;
+// const title = 'Best reads of 2019';
+// const author = 'Mario';
+// const likes = 30;
 
 
 // concatenation way
@@ -113,7 +113,7 @@ const likes = 30;
 
 
 // Arrays
-let ninjas = ['shaun', 'ryu', 'chun-li'];
+// let ninjas = ['shaun', 'ryu', 'chun-li'];
 
 // ninjas[1] = 'ken'
 // console.log(ninjas[1]);
@@ -131,9 +131,28 @@ let ninjas = ['shaun', 'ryu', 'chun-li'];
 // let result = ninjas.join('-');
 // let result = ninjas.indexOf('chun-li');
 // let result = ninjas.concat(['ken', 'crystal'])
-let result = ninjas.push('ken');
+// let result = ninjas.push('ken');
+// result = ninjas.pop();
 
-console.log(ninjas);
+// console.log(result);
+
+
+
+
+
+let age;
+
+console.log(age, age + 3, `the age is ${age}`);
+
+
+
+
+
+
+
+
+
+
 
 
 
