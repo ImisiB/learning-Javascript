@@ -156,9 +156,3 @@
 // }
 
 // console.log('outside code block: ', age, name, test);
-
-// Done
-
-
-
-
