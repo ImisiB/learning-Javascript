@@ -7,3 +7,5 @@
 // let lastName = "Sanderson";
 // let fullName = firstName + ' ' + lastName;
 // console.log(fullName);
+
+// Done with chapter
